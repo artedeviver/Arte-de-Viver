@@ -21,7 +21,22 @@
 
 </head>
 
-<body>
+<body class="body">
+
+    <section class="pop-up">
+        <div>
+            <p>
+                Ficamos felizes pelo seu interesse em fazer parte da nossa família!
+            </p>
+
+            <p>
+                Em alguns instantes você irá receber um e-mail explicando os próximos passos!
+            </p>
+            <button class="btn-back-cadastro">OK! Voltar para a tela inicial</button>
+        </div>
+
+    </section>
+
     <!-- navbar -->
     <header>
         <a href="../index.html"><img src="../img/logo.png"
@@ -47,51 +62,51 @@
     </header>
 
     <main>
-            <div class="title-container">
-                <div class="principal-title-container">
-                    <h1>
-                        venha para o <div>nosso time!</div>
-                    </h1>
-                </div>
-    
-                <div class="description-title">
-                    <p>Nós estamos muito felizes em saber que você está interessado em fazer a diferença no mundo!</p>
-                </div>
+        <div class="title-container">
+            <div class="principal-title-container">
+                <h1>
+                    venha para o <div>nosso time!</div>
+                </h1>
             </div>
-    
-            <div class="cadastro-container">
-                    <div class="container-button"><a href="../index.html">voltar</a></div>
-        
-                    <form>
-                        <p class="question">Primeiro me conte um pouco sobre você:</p>
-                        <div class="input-container">
-                            <p>Nome completo</p><input type="text" class="input-text space">
 
-                            <p>Você tem interesse em ser:</p>
-                            <select name="" id="" class="section-text">
-                                <option value="1">Voluntário</option>
-                                <option value="2">Parceiro</option>
-                            </select>
+            <div class="description-title">
+                <p>Nós estamos muito felizes em saber que você está interessado em fazer a diferença no mundo!</p>
+            </div>
+        </div>
 
-                            <p>Idade</p><input type="number" min="18" class="input-text age">
-                        </div>
-        
-                        <p class="question">Agora precisamos de alguns dados:</p>
-                        <div class="input-container">
-                            <p>Email</p>
-                            <input type="email" class="input-text input-text space">
-        
-                            <p>Telefone</p>
-                            <input type="tel" class="input-text">
-                        </div>
-        
-                        <p class="question">Por qual motivo você deseja se juntar a nós?</p>
-                        <textarea rows="10" class="input-text" placeholder="Digite aqui"></textarea>
-                        <button type="button" class="primary space-button action-cadastro">concluir cadastro</button>
-                    </form>
+        <div class="cadastro-container">
+            <div class="container-button"><a href="../index.html">voltar</a></div>
+
+            <form>
+                <p class="question">Primeiro me conte um pouco sobre você:</p>
+                <div class="input-container">
+                    <p>Nome completo</p><input type="text" class="input-text space">
+
+                    <p>Você tem interesse em ser:</p>
+                    <select name="" id="" class="section-text">
+                        <option value="1">Voluntário</option>
+                        <option value="2">Parceiro</option>
+                    </select>
+
+                    <p>Idade</p><input type="number" min="18" class="input-text age">
                 </div>
 
-        </main>
+                <p class="question">Agora precisamos de alguns dados:</p>
+                <div class="input-container">
+                    <p>Email</p>
+                    <input type="email" class="input-text input-text space">
+
+                    <p>Telefone</p>
+                    <input type="tel" class="input-text">
+                </div>
+
+                <p class="question">Por qual motivo você deseja se juntar a nós?</p>
+                <textarea rows="10" class="input-text" placeholder="Digite aqui"></textarea>
+                <button type="button" class="primary space-button action-cadastro">concluir cadastro</button>
+            </form>
+        </div>
+
+    </main>
     <!-- footer -->
     <footer>
         <div class="container-left">
@@ -142,5 +157,6 @@
     </footer>
 </body>
 <script src="../js/animations.js"></script>
+<script src="../js/cadastro.js"></script>
 
 </html>
