@@ -84,28 +84,6 @@ h3 {
     background: #C74C11;
 }
 
-.five {
-    background-image: url(../img/quem-somos/sri-sri-fundador.png);
-    height: 350px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.five p{
-    width: 30%;
-    text-align: center;
-    line-height: 30px;
-}
-
-.quotes{
-    font-weight: bold;
-}
-
-.name-founder{
-    font-style: italic;
-    margin-top: 3%;
-}
-
 .newspaper {
     padding: 82px;
 }
