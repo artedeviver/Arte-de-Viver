@@ -81,6 +81,11 @@ h2.subtitle {
     background-size: 100% 100%;
 }
 
+.metricas .section-title {
+    width: 36%;
+}
+
+
 .metricas-icon {
     width: 160px;
     height: 160px;
