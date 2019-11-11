@@ -96,3 +96,7 @@ form .primary{
 .container-button a:hover{
     color: #D74C11;
 }
+
+.legal, .natural{
+    display: none;
+}
