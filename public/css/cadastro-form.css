@@ -34,7 +34,7 @@ form{
     margin-bottom: 60px;
 }
 
-.input-text{
+.input-text, .section-text{
     background-color: #4EB4BF;
     color: white;
     border: none;
@@ -42,6 +42,10 @@ form{
     width: 300px;
     padding: 10px;
     font-family: 'Raleway', sans-serif;
+}
+
+.section-text{
+    width: 320px;
 }
 
 .input-container .input-radio{

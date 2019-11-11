@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="../css/style-news.css">
     <link rel="stylesheet" href="../css/cadastro.css">
     <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/cadastro-form.css">
+
 </head>
 
 <body>
@@ -57,27 +59,38 @@
                 </div>
             </div>
     
-            <div class="general-container">
-                <section class="cadastro-container">
-                    <h2 class="title-section-fisic-person">pessoa <div>física</div></h2>
-    
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla enim augue, euismod eget scelerisque
-                        et, ornare non sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec iaculis
-                        at lacus in convallis.</p>
-    
-                    <button class="primary">quero ser voluntário</button>
-                </section>
-    
-                <section class="cadastro-container">
-                        <h2 class="title-section-juridic-person">pessoa <div>jurídica</div></h2>
-    
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla enim augue, euismod eget scelerisque
-                            et, ornare non sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec iaculis
-                            at lacus in convallis.</p>
+            <div class="cadastro-container">
+                    <div class="container-button"><a href="seja-membro.html">voltar</a></div>
         
-                        <button class="primary">quero me tornar parceiro</button>
-                </section>
-            </div>
+                    <form>
+                        <p class="question">Primeiro me conte um pouco sobre você:</p>
+                        <div class="input-container">
+                            <p>Nome completo</p><input type="text" class="input-text space">
+
+                            <p>Você tem interesse em ser:</p>
+                            <select name="" id="" class="section-text">
+                                <option value="1">Voluntário</option>
+                                <option value="2">Parceiro</option>
+                            </select>
+
+                            <p>Idade</p><input type="number" min="18" class="input-text age">
+                        </div>
+        
+                        <p class="question">Agora precisamos de alguns dados:</p>
+                        <div class="input-container">
+                            <p>Email</p>
+                            <input type="email" class="input-text input-text space">
+        
+                            <p>Telefone</p>
+                            <input type="tel" class="input-text">
+                        </div>
+        
+                        <p class="question">Por qual motivo você deseja se juntar a nós?</p>
+                        <textarea rows="10" class="input-text" placeholder="Digite aqui"></textarea>
+                        <button type="button" class="primary space-button action-cadastro">concluir cadastro</button>
+                    </form>
+                </div>
+
         </main>
     <!-- footer -->
     <footer>
